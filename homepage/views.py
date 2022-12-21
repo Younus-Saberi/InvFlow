@@ -5,7 +5,7 @@ from transactions.models import SaleBill, PurchaseBill
 
 
 class HomeView(View):
-    template_name = "homepage.html"
+    template_name = "home.html"
     def get(self, request):        
         labels = []
         data = []        
