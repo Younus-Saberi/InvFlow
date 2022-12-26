@@ -37,19 +37,19 @@
         <div class="form-content">
           <div class="login-form">
             <div class="title">Login</div>
-          <form action="#" >
+          <form action="" name="loginForm">
             <div class="input-boxes">
               <div class="input-box">
                 <i class="fas fa-envelope"></i>
-                <input type="text" placeholder="Enter your email" required>
+                <input type="text" id="login-email" placeholder="Enter your email" required>
               </div>
               <div class="input-box">
                 <i class="fas fa-lock"></i>
-                <input type="password" placeholder="Enter your password" required>
+                <input type="password" id="login-password" placeholder="Enter your password" required>
               </div>
               <div class="text"><a href="#">Forgot password?</a></div>
               <div class="button input-box">
-                <input type="submit" value="Sumbit" href="{% url 'login' %}">
+                <input type="submit" value="Login" onClick="validateLoginForm()" href="{% url 'login' %}">
               </div>
               <div class="text sign-up-text">Don't have an account? <label for="flip">Sigup now</label></div>
             </div>
@@ -81,6 +81,6 @@
     </div>
     </div>
   </div>
-  <script src="{% static 'js/register.js%'}"></script>
+  <script src="{% static '/js/register.js' %}" type="text/javascript"></script>  
 </body>
 </html>
