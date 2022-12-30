@@ -6,4 +6,5 @@
   // function for validation of login form
   function validateLoginForm() {
     alert("Login Button was clicked on login form");
+    window.location.replace('http://localhost:8000');
   }
