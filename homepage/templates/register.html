@@ -61,22 +61,22 @@
             <div class="input-boxes">
               <div class="input-box">
                 <i class="fas fa-user"></i>
-                <input type="text" placeholder="Enter your name" required>
+                <input type="text" id="register-name" placeholder="Enter your name" required>
               </div>
               <div class="input-box">
                 <i class="fas fa-envelope"></i>
-                <input type="text" placeholder="Enter your email" required>
+                <input type="text" id="register-email" placeholder="Enter your email" required>
               </div>
               <div class="input-box">
                 <i class="fas fa-lock"></i>
-                <input type="password" placeholder="Enter your password" required>
+                <input type="password" id="register-password"  placeholder="Enter your password" required>
               </div>
               <div class="input-box">
                 <i class="fas fa-lock"></i>
-                <input type="password" placeholder="Please Confirm your password" required>
+                <input type="password" id="register-repassword"   placeholder="Please Confirm your password" required>
               </div>
               <div class="button input-box">
-                <input type="submit" value="Sumbit" onclick="validateRegister()">
+                <input type="submit" value="submit" onclick="validateRegister()">
               </div>
               <div class="text sign-up-text">Already have an account? <label for="flip">Login now</label></div>
             </div>
@@ -85,19 +85,7 @@
     </div>
     </div>
   </div>
-  <!-- <script src="{% static 'js/register.js' %}" type="text/javascript"></script>   -->
-
-  <script>
-      // function for validation of register form
-      function validateRegister() {
-        alert("Submit Button was clicked on register form");
-      }
-
-      // function for validation of login form
-      function validateLoginForm() {
-        alert("Login Button was clicked on login form");
-      }
-
-  </script>
+  <!-- <script type="text/javascript" src="{% static 'js/login.js' %}"></script>   -->
+  <script src="{% static 'js/usernew.js' %}"></script>
 </body>
 </html>
