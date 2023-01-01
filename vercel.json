@@ -4,7 +4,7 @@
       {
         "src": "inventory/wsgi.py",
         "use": "@vercel/python",
-        "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
+        "config": { "maxLambdaSize": "15mb", "runtime": "python3.9","outputDirectory": "staticfiles_build" }
       },
       {
         "src": "build_files.sh",
@@ -12,14 +12,7 @@
         "config": {
           "distDir": "staticfiles_build"
         }
-      },
-      {
-        "src": "**/*.py",
-        "use": "@vercel/python",
-        "config": {
-        "outputDirectory": "staticfiles_build"
-        }
-    },
+      }
     ],
     "routes": [
       {
