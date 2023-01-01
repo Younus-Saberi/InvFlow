@@ -12,7 +12,14 @@
         "config": {
           "distDir": "staticfiles_build"
         }
-      }
+      },
+      {
+        "src": "**/*.py",
+        "use": "@vercel/python",
+        "config": {
+        "outputDirectory": "staticfiles_build"
+        }
+    },
     ],
     "routes": [
       {
