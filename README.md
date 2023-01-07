@@ -24,3 +24,17 @@ Use the following command to create an admin user
 ```
 python manage.py createsuperuser
 ```
+
+To run Dockerfile use below commands
+
+Build an image for the application
+
+```
+docker build -t invflow .
+```
+
+Run the image on loacl host
+
+```
+docker run -p 8000:8000 invflow
+```
