@@ -8,7 +8,7 @@
 
 {% block content %}
 
-    <div style="color:#ea2088; font-style: bold; font-size: 3rem; border-bottom: 1px solid #fff">Welcome, {{ request.user.username }}</div>
+    <div style="color:#ea2088; font-style: bold; font-size: 3rem; border-bottom: 1px solid #fff">Welcome, {{ request.user.username }}, Visit Our Website <a href="{% url 'homepage' %}">Invflow</a> </div>
 
     <br>
 
