@@ -148,4 +148,5 @@ LOGIN_REQUIRED_IGNORE_VIEW_NAMES = [                    # urls ignored by the lo
     'login',
     'logout',
     'about',
+    'register',
 ]
