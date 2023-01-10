@@ -4,7 +4,7 @@ Users can add stock item and generate bills. All data is stored in database and 
 
 To run project, run the following commands in the project's directory to create the database. When running the software for the first time, it is necessary to run each command for each app in the project
 
-Here are some screenshot of our application
+# Here are some screenshot of our application
 
 <img src="res/landing-page.png">
 
