@@ -7,6 +7,8 @@ To run project, run the following commands in the project's directory to create 
 # Here are some screenshot of our application
 
 <img src="res/landing-page.png">
+<img src="res/admin-panel.png">
+<img src="res/billing-page.png">
 
 ```
 python manage.py makemigrations homepage
