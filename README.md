@@ -45,7 +45,3 @@ Run the image on loacl host
 ```
 docker run -p 8000:8000 invflow
 ```
-
-```
-python env
-``
