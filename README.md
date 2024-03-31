@@ -10,6 +10,10 @@ To run project, run the following commands in the project's directory to create 
 <img src="res/admin-panel.png">
 <img src="res/billing-page.png">
 
+Create a ENV 
+```
+python -m venv .env
+```
 ```
 python manage.py makemigrations homepage
 python manage.py migrate homepage
